@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto";
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header .titre {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.parent {
+  display: flex;
+  height: 10%;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+.webimg,
+.Wimg,
+.cr,
+.game {
+  width: 100px;
+}
+
+.game,
+link,
+.DG {
+  background-color: purple;
+}
+.web .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  border: 10px inset rgb(19, 3, 3);
+  margin: 5%;
+  margin-top: 0;
+  height: 650px;
+  box-shadow: 2px grey;
+  border-radius: 6px;
+  background: grey;
+}
+.crypto .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  border: 10px inset rgb(19, 3, 3);
+  margin: 5%;
+  margin-top: 0;
+  height: 650px;
+  background: rgb(217, 163, 64);
+  border-radius: 6px;
+}
+.cr {
+  background-color: rgb(217, 163, 64);
+}
+.Ctitle {
+  background-color: rgb(217, 163, 64);
+  color: black;
+  
+}
+.DGame .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  border: 10px inset rgb(19, 3, 3);
+  margin: 5%;
+  margin-top: 0;
+  height: 650px;
+  border-radius: 6px;
+  background: rgb(236, 12, 206);
+  flex-direction: row;
+}
+.Gtitle {
+  color: black;
+  background-color: rgb(236, 12, 206);
+}
+.game {
+  background-color: rgb(236, 12, 206);
+  
+}
+.Wimg {
+  background-color: rgb(6, 18, 108);
+
+}
+header div .Wtitle {
+  background: grey;
+  color: Black;
+}
+header div .webimg {
+  background-color: grey;
+}
+header .titre {
+  color: burlywood;
+  font-style: italic;
+}
+header .DGame .Gtitle:hover {
+  color: white;
+}
+header .web .Wtitle:hover {
+  color: white;
+}
+header .crypto .Ctitle:hover {
+  color: white;
+}
+header .DGame .game:hover {
+  width: 150px;
+}
+header .crypto .cr:hover {
+  width: 150px;
+}
+header .web .webimg:hover {
+  width: 150px;
+}
+main p {
+  text-align: center;
+  cursor: pointer;
+}
+main p a {
+  text-decoration: solid;
+  color: #000;
+}
+.Bimg,
+.Fimg {
+  width: 25%;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.BackEnd .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column  ;
+  border: 10px inset rgb(19, 3, 3);
+  height: 650px;
+  border-radius: 6px;
+  width: 450px;
+  margin: 40px;
+  background: linear-gradient(-45deg, purple, blue);
+}
+.FrontEnd .link {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  justify-content: center;
+  background: linear-gradient(45deg, cyan, blue);
+  flex-direction: column;
+  border: 10px inset rgb(19, 3, 3);
+  height: 650px;
+  border-radius: 6px;
+  width: 450px;
+  animation: gradient 15s ease infinite;
+}
+.Btitle,
+.Ftitle {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+header .BackEnd .link .Bimg:hover {
+  width: 150px;
+}
+header .FrontEnd .link .Fimg:hover {
+  width: 150px;
+}
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.DDD,.DD{
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+.DDD .link{
+display: flex;
+align-items: center;
+margin: 40px;
+justify-content: center;
+background: linear-gradient(45deg, cyan, blue);
+flex-direction: column;
+border: 10px inset rgb(19, 3, 3);
+height: 650px;
+border-radius: 6px;
+width: 450px;
+animation: gradient 15s ease infinite;
+}
+.DD .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    border: 10px inset rgb(19, 3, 3);
+    height: 650px;
+    border-radius: 6px;
+    width: 450px;
+    margin: 40px;
+    background: linear-gradient(-45deg, purple, blue);
+}
+header .DD .link .Bimg:hover {
+  width: 150px;
+}
+header .DDD .link .Fimg:hover {
+  width: 150px;
+}

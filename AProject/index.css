@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto";
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  background: linear-gradient(45deg, #242f36, #26d07c, #161d2c);
+  justify-content: space-evenly;
+}
+main h1 {
+  text-align: center;
+}
+.ut {
+  background: #073b28;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.ut:hover {
+  background: none;
+}
+.sc,
+.ffc,
+.ho {
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.sc:hover,
+.ffc:hover,
+.ho:hover {
+  background: #073b28;
+}
+main p {
+  text-align: center;
+}
+.A1 {
+  display: none;
+  margin: 25px;
+  background: #242f36;
+  height: 700px;
+}
+.ut,
+.ffc,
+.sc,
+.ho {
+  width: 50px;
+}
+.dtn {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+.type {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+.scrp
+{
+  height: 450px;
+  width:800px;
+  margin-top: 30px;}
+.scr
+{
+  display:flex;
+  justify-content:center;
+}
+.scrimbah ,p,a
+{
+  font-size:30px;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+}
+.scrimbah ul
+{
+  list-style: none;
+}
+.scrimbah ul li
+{
+  color: black;
+  display:flex;
+  justify-content:center;
+}
+.rel:visited
+{
+  color:grey;
+}
+.ffci
+{
+  height:80px;
+   width:80px;
+  }
+.ffci ,p
+{
+  font-family: 'Oswald', sans-serif;
+ font-family: 'Work Sans', sans-serif;
+}
+.ffci ,ul, li, a{
+  list-style: none;
+  text-decoration: none;
+}
+.fcon
+{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.acon
+{
+  display: flex;
+  justify-content: space-between;
+}
+h1
+{
+  font-family: 'Oswald', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 50px;
+}
+.moe
+{
+  display: flex;
+  flex-direction: row;
+}
+.card
+{
+  width: 20rem;
+  margin: 30px;
+}

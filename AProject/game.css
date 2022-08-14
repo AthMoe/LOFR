@@ -1,0 +1,70 @@
+
+  .ho {
+    width: 50px;
+    margin: 10px;
+  }
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    background: linear-gradient(45deg, #242f36, #26d07c, #161d2c);
+    justify-content: space-evenly;
+}
+.dcon
+{
+    display:flex;
+    justify-content:center;
+    margin: 15px;
+    flex-direction:column;
+    align-items: center;
+}
+.cop
+{
+  display:flex;
+  flex-direction:column;
+}
+.gop
+{
+  display: flex;
+  flex-direction: column;
+}
+.dcon h3{
+  color: #26d07c;
+}
+.dcon ul,li,a
+{
+  list-style: none;
+    color: blue;
+}
+.dcon a{
+  text-decoration: none;
+}
+.big
+{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-bottom: 100px;
+}
+.pic
+{
+  overflow: hidden;
+  height: 18rem;
+  width:18rem;
+}
+.card
+{
+  margin: 25px;;
+}
+a{
+  list-style: none;
+  color: blue;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}

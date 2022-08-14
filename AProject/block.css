@@ -1,0 +1,85 @@
+.cont {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 150px;
+  margin: 50px;
+  border-radius: 0%;
+}
+.ho {
+  width: 50px;
+  margin: 10px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  background: linear-gradient(45deg, #242f36, #26d07c, #161d2c);
+  justify-content: space-evenly;
+}
+.card-body {
+  width: 1250px;
+  height: 280px;
+
+  display: block;
+}
+.container h5 {
+  display: flex;
+  justify-content: center;
+}
+.card-body,
+h5,
+p {
+  font-family: "Oswald", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.card-body h5 {
+  font-size: 40px;
+  color: #26d07c;
+}
+.card-body p {
+  font-family: "Open Sans", sans-serif;
+}
+table {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+}
+th td {
+  margin: 10px;
+}
+.rtb {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+.A1 {
+  display: none;
+  margin: 25px;
+  background: #242f36;
+  height: 700px;
+}
+.dtn {
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+}
